@@ -23,3 +23,6 @@ fileMatchPattern: '*.py'
 - Pin dependency versions for reproducibility
 - Group dependencies by purpose (main, dev, test)
 - Document why dependencies are needed
+- Use a virtual environment to manage dependencies.
+- Name virtual environment .venv
+- Never install dependencies outside of a virtual environment.
