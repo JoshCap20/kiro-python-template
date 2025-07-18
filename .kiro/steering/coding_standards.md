@@ -10,6 +10,18 @@
 - Use context managers for resource management
 - Handle exceptions appropriately with specific exception types
 
+## Git Usage
+- Create a git commit after each completed task or subtask
+- Group related edits by clear, specific commits
+- Write descriptive commit messages with:
+  - A concise summary line (50 characters or less)
+  - A blank line followed by a more detailed explanation
+  - List of specific changes made using bullet points
+  - Reference to the task ID or issue number being addressed
+- Tests should be included in commits to test modifications or add new coverage
+- Use a .gitignore file in root directory to exclude non-relevant directories and files
+- Avoid committing incomplete or broken code
+
 ## Testing Standards
 - Write unit tests for all functions and methods
 - Aim for at least 80% code coverage
